@@ -1,0 +1,107 @@
+body {
+    background-color: #F1F5F8;
+}
+
+.container {
+    width: 700px;
+    margin: 25vh auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.container .top {
+    margin-bottom: 40px;
+}
+
+.container .top h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.container .top div {
+    width: 100px;
+    height: 5px;
+    background-color: #49a6e9;
+    margin: 0 auto;
+}
+
+.container .content {
+    background-color: white;
+    padding: 20px;
+}
+
+.img-holder {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 8px -8px #49A6E9;
+}
+
+.img-holder .stroke {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #49a6e9;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.img-holder .stroke svg {
+    margin-top: 5px;
+}
+
+button {
+    color: #49a6e9;
+    transition-duration: .6s;
+}
+
+.left-right button {
+    background: white;
+    border: none;
+    font-size: 25px;
+}
+
+.random {
+    background: #cfe7f8;
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    transition-duration: .6s;
+    color: blue;
+}
+
+.review .name {
+    font-size: 25px;
+    margin: 0;
+}
+
+.review .job {
+    color: #92c9f0;
+    margin: 2px;
+}
+
+.review .info {
+    font-size: 1.2em;
+}
